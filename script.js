@@ -12,11 +12,11 @@ const getSum = () => {
   items.forEach((item, i) => {
     sum += parseInt(item.textContent);
   });
-  table.innerHTML += `
-  <tr>
-    <td colspan = 2>${sum} </th>
-  </tr> 
-  `;
+  const ansDiv = document.getElementById("ans");
+  ansDiv.textContent = sum;
+  ansDiv.style.fontWeight = "bold";
+  ansDiv.style.margin = "25px";
+  ansDiv.style.fontSize = "1.2rem";
   
 };
 
