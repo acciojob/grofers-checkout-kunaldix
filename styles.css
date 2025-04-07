@@ -1,2 +1,40 @@
 
 /* Your CSS Code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: calc(100% - 40px);
+  margin: 25px;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+table tr th {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+}
+
+table tr td {
+  border-bottom: 1px solid #ccc;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ddd;
+  border: 1px solid transparent;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
